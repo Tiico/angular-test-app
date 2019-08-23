@@ -10,9 +10,9 @@ script:
 - npm run lint
 deploy:
   provider: heroku
-  app: angular-performance-test
+  app: angular-test-app
   api_key:
     secure: TKO4PD87xLcrsmtAlKRUSv2/UuruK/pAmLy6TXKNxDjUGfmiEV+X4UyylzuNjGW/hsMk9KrWK1hmr12ynP5s/+Ee0TAEYWPtHBrNvo8DvHUy5apwAUwEyIwoG3+rt9dmYC+NMMoxFKaFVAuiQGj5dVNVuh03jOIc2DwayXV2Cn5Yovd66b12rA3M6cjWa8xDGRnv8+0osbqIiQkreRcFJk5wsXOwwMtoOKpKH72zEGCTI1zMRXY0NjUXpLPrIu+nEWtwZn1r1VtnOscNPuItbbjN+ib4mQRkrm6hVKUQ7W3A4IitBJu/GkmazstMPbbHQax4BCyk3fSCQigCn75a/QnD9kHb7N6qrgiNAkmFm9/opIFlZ1euGxKvJmFUDKrOIhOBVPeJjysAN1/88jW4ckEjhpXhx45Se47b6h3OCePqjQjUqe0LEJC+w4kWQQeUCFz/I3IOE5jirU4MIyTYI00aK9lL8/drY7Q691iFcIaHERqBLOh8HyV+CqxMnKRoffGKaFQOyw7FZFXTRMGsuwgz9R2b75Bx42ynkPoDdUd4aB8qri7I53CTWrwU6Ipl/ypDIXVbLdcxkFNJdoXeby9SRHIJzoRXzl2AHao6uocTh+OHi8U2Fwl8KZSxk552x5fLLvfPOIS77IJTgpJG0FkIg6TlMI6DKAf9TmvP7Fk=
   on:
-    repo: Tiico/angular-performance-test
+    repo: Tiico/angular-test-app
     branch: master
